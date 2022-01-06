@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="resources/css/layout.css"
+    <title></title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        // $('document').ready(function(){
+        //     test();
+        // })
+        // // test 함수
+        // function test() {
+        //     console.log('함수 불러옴');
+        //     var btnTest = $('.btn_test');
+        //     btnTest.click(function(){
+        //         console.log('클릭 이벤트');
+        //     });
+        // }
+
+         $('document').ready(function(){
+            test();
+         })       
+         function test(){
+             console.log('함수불러옴');
+             var btnTest = $('.btn_test');        
+             btnTest.click(function(){
+                console.log('클릭이벤트');
+             });
+             console.log(22);
+         }
+
+         $('document').ready(funtion(){
+
+             test();
+         })
+
+         function test(){
+            console.log('함수불러옴');
+            var btnTest = $('.btn_test');
+            btnTest.click(function(){
+                console.log('클릭이벤트')
+            });
+            console.log(11);
+            
+         }  
+    </script>
+</head>
+<body>
+    <!-- (s) wrap -->
+    <div id="wrap">
+        <!-- (s) header -->
+         <div id="header">
+             <h1 class="logo"><img src="resources/img/logo.png" alt="로고이미미지"></h1>
+             <div class="lnk_bx"><a href="#none" class="link_to">www.clipartkorea.co.kr</a></div>             
+         </div> 
+         <!-- (s) container -->
+         <div id="container">
+            <!-- (e) header -->
+            <!-- (s) visual -->
+            <!-- <button class="btn_test">테스트버튼</button> -->
+            <section class="visual">
+                <div class="inner">
+                    <h2 class="info_tit">
+                        Tongro<br> Marketing
+                    </h2>
+                    <div class="info_txt">
+                        통로마케팅과 함께 보다 쉬운 온라인 마케팅 서비스를 경험 하실 수 있습니다. <br>
+                        기술과 데이터를 기반으로 최적의 마케
+                    </div>
+                    <div class="btn_wrap">
+                        <button class="btn type1">consulting</button>
+                    </div>             
+                </div>  
+            </section>         
+            <!-- (e) visual -->
+            <!-- (s) introduce -->
+            <section class="introduce">
+                <div class="inner">
+                    <!-- (s) basic_info -->
+                    <div class="basic_info">                
+                        <h2 class="con_tit">
+                            <span class="txt">
+                                tongro                    
+                            </span>
+                            Why choose us?
+                        </h2>
+                        <div class="txt">
+                            Marketing Directors find opportunities to drive fraffic, improve
+                            their SEO and PPC, and uncover the best marketing Diretors find oppourtunities
+                            to drive traffic, improve their SEO and PPC, and uncover the best marketing strategy.
+                            Marketing Diretors find opportunities to drive
+                        </div>
+                        <div class="btn_wrap">
+                            <button class="btn type1">consulting</button>
+                            <button class="btn type2">consulting</button>
+                        </div>                
+                    </div>
+                    <!-- (e) basic_info -->
+                    <!-- (s) chart_info -->
+                    <div class="chart">
+                        <ul class="chart_list">
+                            <li class="item">                        
+                                <div class="process_chart">
+                                    <div class="chart_tit">
+                                        Development
+                                    </div>    
+                                    <div class="chart_num">
+                                        70%
+                                    </div>
+                                    <div class="bar">
+                                        <span class="gauge" data-percent="70"></span>    
+                                    </div>
+                                </div>                        
+                            </li>
+                            <li class="item">                             
+                                <div class="process_chart">
+                                    <div class="chart_tit">
+                                        Design
+                                    </div>    
+                                    <div class="chart_num">
+                                        90%
+                                    </div>
+                                    <div class="bar">
+                                        <span class="gauge" data-percent="70"></span>    
+                                    </div>
+                                </div>                        
+                            </li>
+                            <li class="item">                     
+                                <div class="process_chart">
+                                    <div class="chart_tit">
+                                        SEO
+                                    </div>    
+                                    <div class="chart_num">
+                                        50%
+                                    </div>
+                                    <div class="bar">
+                                        <span class="gauge" data-percent="70"></span>    
+                                    </div>
+                                </div>                        
+                            </li>
+                            <li class="item">                     
+                                <div class="process_chart">
+                                    <div class="chart_tit">
+                                        Marketing
+                                    </div>    
+                                    <div class="chart_num">
+                                        100%
+                                    </div>
+                                    <div class="bar">
+                                        <span class="gauge" data-percent="70"></span>    
+                                    </div>
+                                </div>                        
+                            </li>
+                        </ul>  
+                    </div>
+                    <!-- (e) chart_info -->
+                </div>
+            </section>
+            <!-- (e) choose_box -->
+            <!-- (s) table_box -->
+            <section class="business">
+                <div class="inner">
+                    <ol class="field_list">
+                        <li class="item active"><span class="menu ico_bulb"></span><span class="txt">MARKETING</span></li>
+                        <li class="item"><span class="menu ico_chart"></span><span class="txt">MARKETING</span></li>
+                        <li class="item"><span class="menu ico_record"></span><span class="txt">MARKETING</span></li>
+                        <li class="item"><span class="menu ico_graph"></span><span class="txt">MARKETING</span></li>
+                        <li class="item"><span class="menu ico_target"></span><span class="txt">MARKETING</span></li>
+                        <li class="item"><span class="menu ico_person"></span><span class="txt">MARKETING</span></li>
+                    </ol>
+                </div>
+            </section>
+            <!-- (e) table_box -->
+            <!-- (s) pricing_box -->
+            <section class="pricing_box">
+                <div class="inner">
+                    <h2 class="con_tit">
+                        tongro plans                    
+                        <span class="txt">
+                            Pricing Tables
+                        </span>
+                    </h2>   
+                    <ul class="pricing_list">
+                        <li class="menu">
+                            <strong class="tit">                        
+                                BEGGINER
+                            </strong>
+                            <div class="txt">
+                                Free
+                            </div>
+                            <span class="squar_bg">
+                                <span class="blind">배경아이콘</span>
+                            </span>
+                            <ul class="info_list">                           
+                                <li class="info_txt"><input type="checkbox" class="inp_chk" id="gb_space"><label for="gb_space"></label>25 GB Space</li>
+                                <li class="info_txt">2 marketing</li>
+                                <li class="info_txt">24h Live Support</li>
+                                <li class="info_txt">Documetation inside</li>
+                            </ul>
+                            <div class="btn_wrap">
+                                <button class="btn type3">
+                                    ORDER PLAN
+                                </button>
+                            </div>
+                        </li>
+                        <li class="menu">
+                            <strong class="tit">                        
+                            $29
+                            </strong>
+                            <div class="txt">
+                                $29
+                            </div>
+                            <span class="squar_bg">
+                                <span class="blind">배경아이콘</span>
+                            </span>
+                            <ul class="info_list">                           
+                                <li class="info_txt"><input type="checkbox" class="inp_chk" id="gb_space02"><label for="gb_space02"></label>25 GB Space</li>
+                                <li class="info_txt"><input type="checkbox" class="inp_chk" id="gb_space03"><label for="gb_space03"></label>2 marketing</li>
+                                <li class="info_txt">24h Live Support</li>
+                                <li class="info_txt">Documetation inside</li>
+                            </ul>
+                            <div class="btn_wrap">
+                                <button class="btn type3">
+                                    ORDER PLAN
+                                </button>
+                            </div>
+                        </li>
+                        <li class="menu">
+                            <strong class="tit">                                                
+                                PROFESSIONAL
+                            </strong>
+                            <div class="txt">
+                                $49
+                            </div>
+                            <span class="squar_bg">
+                                <span class="blind">배경아이콘</span>
+                            </span>
+                            <ul class="info_list">                           
+                                <li class="info_txt"><input type="checkbox" class="inp_chk" id="gb_space04"><label for="gb_space04"></label>25 GB Space</li>
+                                <li class="info_txt"><input type="checkbox" class="inp_chk" id="gb_space05"><label for="gb_space05"></label>2 marketing</li>
+                                <li class="info_txt"><input type="checkbox" class="inp_chk" id="gb_space06"><label for="gb_space06"></label>24h Live Support</li>
+                                <li class="info_txt">Documetation inside</li>
+                            </ul>
+                            <div class="btn_wrap">
+                                <button class="btn type3">
+                                 ORDER PLAN
+                                </button>
+                            </div>
+                        </li>
+                        <li class="menu">
+                            <strong class="tit">                                                
+                                PROFESSIONAL
+                            </strong>
+                            <div class="txt">
+                                $69
+                            </div>
+                            <span class="squar_bg">
+                                <span class="blind">배경아이콘</span>
+                            </span>
+                            <ul class="info_list">                           
+                                <li class="info_txt"><input type="checkbox" class="inp_chk" id="gb_space07"><label for="gb_space07"></label>25 GB Space</li>
+                                <li class="info_txt"><input type="checkbox" class="inp_chk" id="gb_space08"><label for="gb_space08"></label>2 marketing</li>
+                                <li class="info_txt"><input type="checkbox" class="inp_chk" id="gb_space09"><label for="gb_space09"></label>24h Live Support</li>
+                                <li class="info_txt"><input type="checkbox" class="inp_chk" id="gb_space10"><label for="gb_space10"></label>Documetation inside</li>
+                            </ul>
+                            <div class="btn_wrap">
+                                <button class="btn type3">
+                                ORDER PLAN
+                                </button>
+                            </div>
+                        </li>
+                    </ul>           
+                </div>     
+            </section>
+            <!-- (e) pricing_box -->
+            <!-- (s) footer -->
+            <footer class="footer">                
+                <div class="sentence">
+                    If you have any questions or concerns, or if you’d like to leav
+                </div>
+                <div class="sns">
+                    <a href="#none" class="link_to">f</a>
+                    <a href="#none" class="link_to">in</a>
+                    <a href="#none" class="link_to">t</a>
+                    <a href="#none" class="link_to">k</a>
+                </div>
+                <div class="hompage_adress">
+                    www.clipartkorea.co.kr
+                </div>
+            </footer>
+            <!-- (e) footer -->
+        </div>
+        <!-- (e) container -->
+    </div>
+    <!-- (e) wrap -->
+</body>
+</html>
