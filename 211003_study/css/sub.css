@@ -4,11 +4,12 @@
 
 .product_list .product_desc{position:relative;padding:15px 20px 15px 25px;margin-bottom:13px;border-radius:3px;background:#f8f8f8;-webkit-box-shadow: 4px 5px 15px -2px #000000; 
     box-shadow: 4px 5px 15px -2px #000000;font-size:0}
-.product_list .product_desc .btn_delete{display:block;position:absolute;right:10px;top:10px;padding:5px;content:''}
+.product_list .product_desc .btn_delete{display:block;position:absolute;right:4px;top:4px;padding:5px;content:''}
 .product_list .product_desc .img_product_thum{display:inline-block;width:48px;height:48px;vertical-align:middle;border-radius:100%;}
 .product_list .product_desc .img_product_thum .img{width:100%;height:100%}
 .product_list .product_desc .product_info{display:inline-block;padding-left:25px;vertical-align:middle;}
 .product_list .product_desc .product_info .btn_wrap{margin-top:10px;}
+.product_list .product_desc .product_info .btn_wrap .btn{margin-right:4px}
 .product_list .product_desc .product_info .tit{font-size:13px;color:#323c3f;font-weight:bold}
 .product_list .product_desc .price{display:inline-block;float:right;padding-top:13px;vertical-align:middle;font-size:14px;color:#a6a6ad}
 
@@ -48,11 +49,14 @@
 .method .credit_box .card_type img{width:100%;}
 .method .type_txt{display:block;padding-top:15px;font-size:11px;color:#7e7e85;text-align:center;}
 
-.method .payment_way{margin-top:10px;padding:10px;background:#fff;border-radius:0 0 3px 3px;}
+.method .payment_way{padding:10px;background:#fff;border-radius:0 0 3px 3px;}
 .method .payment_way li{text-align:left;padding:0 0 20px 20px}
 .method .payment_way li .txt{text-align:left;}
 .method .payment_way li .desc{padding-top:18px;text-align:left;padding-left:35px;font-size:8px;color:#7e7e85}
-
+.method .btn_wrap {padding:28px 0}
+.method .btn_wrap .btn{display:block;margin:0 auto;border-radius:2px;-webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75); 
+    box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.75);}
+.method .btn_wrap .btn:first-child{margin-bottom:18px}
 
 
 .radio_btn{display:flex;justify-content:center;padding:0 10px}

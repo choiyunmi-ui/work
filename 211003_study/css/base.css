@@ -1,8 +1,8 @@
 @charset 'utf-8';
 
 /* button */
-/* .btn_basic{padding:0 40px 0 44px;height:30px;font-size:0.56rem;line-height:30px;color:#f8f8f8;background:#3a4144;-webkit-box-shadow: 1px 8px 15px -7px rgba(0,0,0,0.21);box-shadow: 1px 8px 15px -7px rgba(0,0,0,0.21);}
-.btn_all_product{font-size:0.5625rem}
+
+/*.btn_all_product{font-size:0.5625rem}
 
 .type4{width:200px;height:35px;line-height:35px;background:#84b262;color:#fff;font-size:12px;text-align:center;}
 .btn_primary{height:37.5px;line-height:37.5px;font-size:8px;padding:0 35px;background:#84b262;color:#fff;-webkit-box-shadow: 1px 8px 15px -7px rgba(0,0,0,0.25); 
@@ -11,9 +11,12 @@
 .btns a{margin-left:5px}
 .btns .btn{display:inline-block;padding: 4px 0;border-radius:3px;text-align:center;color:#323c3f} */
 /* .btn_size{display:block;vertical-align:middle;font-size:30px;height:100px;width:200px;border:1px solid red;text-align:center;border-radius:4px;background:red} */
-.btn_size{width:40px;height:20px;line-height:20px;font-size:7px;color:#323c3f;background:#e2e4e4}
-/* .btn_free{width:100px;height:30px;line-height:30px;font-size:9px;color:#fff;background:#84b262} */
-    
+.btn {display:inline-block}
+.btn_basic{width:37px;height:18px;line-height:18px;color:#323c3f;font-size:14px;border-radius:2px;text-align:center}
+.btn_size{width:40px;height:20px;line-height:20px;font-size:7px;color:#323c3f;background:#e2e4e4;text-align:center;border-radius:2px;}
+.btn_free{width:100px;height:30px;line-height:30px;font-size:9px;color:#fff;background:#84b262}
+.btn_order{width:140px;height:38px;line-height:38px;font-size:8px;color:#fff;background:#84b262;text-align:center;}   
+.btn_cancel{width:140px;height:38px;line-height:38px;font-size:8px;color:#fff;background:#e85653;text-align:center}
 /* input */
 
 /* select */
