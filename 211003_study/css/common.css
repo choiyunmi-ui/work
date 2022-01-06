@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+#skipToContent a {position:absolute;top:0;left:0;overflow:hidden;width:1px;height:1px;font-size:0;line-height:0;z-index:100000;}
+#skipToContent a:focus, 
+#skipToContent a:active {width:200px;height:50px;background:#21272e;color:#fff;font-size:14px;font-weight:bold;text-align:center;text-decoration:none;line-height:50px}
+
+
+input { 
+
+    -webkit-appearance : none;
+    
+    -moz-appearance:none;
+    
+    appearance:none;
+    border:0
+    
+    }
+    
+    
+/* common 공통 */
+.img{max-width:100%;height:100%;text-align:center;}
+.link_to{display:block}
+#wrap{position:relative}
+.inner{padding:0 12px}
+/* header */
+.header_checkout{background:#38474f}
+.header_checkout .header_top{padding:14px 12px;background:#f6846a;box-sizing: border-box;}
+.header_checkout .header_top .btn_back{display:inline-block;width:15px;height:13px;background:url(../img/sub/ico_btn.png) no-repeat;background-size:15px 13px}
+.header_checkout .header_top .tit{display:inline-block;padding-left:25px;font-size:13px;color:#f8f8f8}
+.header_checkout .order{height:45px;line-height:45px;padding-right:20px;color:#f8f8f8;font-size:13px;text-align:center;}
+
+/* icons */
+.icon{display:inline-block;background-repeat:no-repeat;background-size:100%;font-size:0;vertical-align:middle}
+.ico_menu{width:0.93rem;height:0.81rem;background-image:url(../img/main/menu_btn_ico.png)}
+.ico_cart{width:1rem;height:0.875rem;background-image:url(../img/main/shopping_ico.png)}
+.ico_clip{width:0.875rem;height:0.875rem;background-image:url(../img/main/item_ico.png)}
+.ico_search{width:0.875rem;height:0.875rem;background-image:url(../img/main/more_ico.png)}
+
+
+

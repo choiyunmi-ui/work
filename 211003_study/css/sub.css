@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+.container{width:100%;background:#e8e8e8;padding: 15px 20px 24px;box-sizing:border-box;}
+
+.product_list .product_desc{position:relative;padding:15px 20px 15px 25px;margin-bottom:13px;border-radius:3px;background:#f8f8f8;-webkit-box-shadow: 4px 5px 15px -2px #000000; 
+    box-shadow: 4px 5px 15px -2px #000000;font-size:0}
+.product_list .product_desc .btn_delete{display:block;position:absolute;right:10px;top:10px;padding:5px;content:''}
+.product_list .product_desc .img_product_thum{display:inline-block;width:48px;height:48px;vertical-align:middle;border-radius:100%;}
+.product_list .product_desc .img_product_thum .img{width:100%;height:100%}
+.product_list .product_desc .product_info{display:inline-block;padding-left:25px;vertical-align:middle;}
+.product_list .product_desc .product_info .btn_wrap{margin-top:10px;}
+.product_list .product_desc .product_info .tit{font-size:13px;color:#323c3f;font-weight:bold}
+.product_list .product_desc .price{display:inline-block;float:right;padding-top:13px;vertical-align:middle;font-size:14px;color:#a6a6ad}
+
+.price_total{position:relative;padding:15px 10px;margin-bottom:13px;border-radius:3px;background:#f8f8f8;-webkit-box-shadow: 4px 5px 15px -2px #000000; 
+    box-shadow: 4px 5px 15px -2px #000000;}
+.price_total .price_info{display:flex;align-items:center;justify-content:space-between;padding:15px 0;border-bottom:1px solid #dfdfdf}
+.price_total .price_info:last-child{border-bottom:none}
+.price_total .price_info .txt{font-size:10px;color:#323c3f}
+.price_total .price_info{padding:10px 0}
+.price_total .price_info .txt_price{float:right;font-size:14px;color:#f6846a}
+
+.method{background:#dfdfdf;border-radius:3px;-webkit-box-shadow: 4px 5px 15px -2px #000000;box-shadow: 4px 5px 15px -2px #000000}
+.method .tit{display:block;padding:10px 0;text-align:center;font-size:14px;color:#fff;background:#38474f;border-radius:3px 3px 0 0;}
+.method .price_type{padding:14px}
+.method .price_type {display:inline-block;vertical-align:top}
+.method .price_type .inp_radio {display:none}
+.method .price_type .inp_radio + label{position:relative;display:inline-block;padding-left:25px;line-height:17px;min-height:17px;font-size:12px;font-weight:bold;vertical-align:top;color:#323c3f}
+.method .price_type .inp_radio + label::before {position:absolute;top:0;left:0;content:"";display:inline-block;width:17px;height:17px;font-size:17px;background:url(../img/sub/radio_chk02.png) no-repeat;background-size: 17px;cursor:pointer;padding-left: 10px;}
+.method .price_type .inp_radio:checked + label::before {background-image:url(../img/sub/radio_chk.png) }
+
+.payment_way li .radio_btn{{width:500px;padding:10px;background:#ccc;}}
+.payment_way li .radio_btn .inp_radio {display: none;}
+.payment_way li .radio_btn .inp_radio + label{font-weight:bold}
+.payment_way li .radio_btn .inp_radio + label::before {content:"";display:inline-block;width:17px;height:17px;margin:2px 0 0;background:url(../img/sub/radio_chk02.png) no-repeat;background-size: 17px;cursor:pointer;padding-left: 17px;vertical-align:middle;}
+.payment_way li .radio_btn .inp_radio:checked + label::before {background-image:url(../img/sub/radio_chk.png) }
+
+
+/* .payment_way li .chk_bx{{width:500px;padding:10px;background:#ccc;}}
+.payment_way li .chk_bx input[type="checkbox"] {display: none;}
+.payment_way li .chk_bx input[type="checkbox"] + label::before {content:"";display:inline-block;width:17px;height:17px;background:url(../img/sub/radio_chk02.png) no-repeat;background-size: 17px;cursor:pointer;padding-left: 17px;font-weight:bold;}
+.payment_way li .chk_bx input[type="checkbox"]:checked + label::before {background-image:url(../img/sub/radio_chk.png) } */
+
+.method .txt {display:block;text-align:center}
+.method .txt .img_txt_wrap{width:37px;height:10px;}
+.method .credit_box{padding-top:10px;font-size:0;text-align:center;}
+.method .credit_box .card_type{display:inline-block;width:48px;height:35px;padding:0 10px}
+.method .credit_box .card_type img{width:100%;}
+.method .type_txt{display:block;padding-top:15px;font-size:11px;color:#7e7e85;text-align:center;}
+
+.method .payment_way{margin-top:10px;padding:10px;background:#fff;border-radius:0 0 3px 3px;}
+.method .payment_way li{text-align:left;padding:0 0 20px 20px}
+.method .payment_way li .txt{text-align:left;}
+.method .payment_way li .desc{padding-top:18px;text-align:left;padding-left:35px;font-size:8px;color:#7e7e85}
+
+
+
+.radio_btn{display:flex;justify-content:center;padding:0 10px}
+.radio_btn .chk_credit_card {align-items:center;justify-content: center;padding:10px}
+.radio_btn .chk_credit_card .inp_credit_radio {display:none}
+.radio_btn .chk_credit_card .inp_credit_radio + label {display:inline-block; width:49px; height: 34px; background:url(../img/sub/card_img_01.png) no-repeat;background-size:100% auto; cursor: pointer; border-radius: 3px}
+.radio_btn .chk_credit_card .inp_credit_radio + label::before{display: none;}
+.radio_btn .chk_credit_card .inp_credit_radio:checked + label::before{display: none;}
+/* .credit_box .card_typ input[type="checkbox"]:checked + label {background:url(../images/check.png) #fa3062 no-repeat center/10px 10px; float: right} */
+/* .chk_box .chk_card input[type="checkbox"] + label span {position: absolute; left:0px; display: block; } */
