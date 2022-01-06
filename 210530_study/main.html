@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="resources/css/layout.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/slick.css"/>
+    <title></title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>        
+    <script type="text/javascript" src="resources/js/slick.js"></script>
+</head>
+<body>
+    <!--  (s) wrap -->
+    <div id="wrap">
+        <!-- (s) header -->
+        <header class="header">
+            <div class="header_top">
+                <a href="#none" class="btn_menu"></a>
+                <span class="tit">Woman, Dresses</span>
+                <a href="#none" class="ico_shopping">
+                    <span class="ico_num">
+                        26
+                    </span>
+                </a>
+            </div>
+            <div class="btn_wrap">
+                <a href="#none" class="btn type1">ADD TO WISHLIST</a>
+                <a href="#none" class="btn type2">ADD TO CART</a>
+            </div>
+        </header>
+        <!-- (e) header -->
+        <!-- (s) container -->
+        <div class="container">
+            <!-- (s) product_wrap -->
+              <section class="product_wrap">                  
+                  <div class="slide_bx">
+                    <div class="slide"><img src="resources/img/thum_img01.png"></div>
+                    <div class="slide"><img src="resources/img/thum_img01.png"></div>
+                    <div class="slide"><img src="resources/img/thum_img01.png"></div>
+                  </div>
+                  <div class="item_info">
+                      <span class="tit">Elegant Pink Dresses</span>
+                      <span class="price_info">
+                          $605,00
+                      </span>
+                  </div>
+              </section>  
+              <!-- (e) product_wrap -->
+              <!-- (s) desc -->
+              <div class="desc">                
+                  <a href=""#none class="link_to">
+                      Description
+                  </a>
+              </div>
+              <!-- (e) des -->
+              <!-- (s) shopping_info -->
+              <section class="shopping_info">
+                  <div class="color_item">
+                       <span class="tit">colour:</span> 
+                       <span class="txt">Choose a colour for item</span>
+                       <div class="chk_box">
+                           <a href="#none" class="color01"></a>
+                           <a href="#none" class="color02"></a>
+                           <a href="#none" class="color03"></a>
+                       </div>
+                  </div>
+                  <div class="size_item">
+                      <span class="tit">Size:</span>
+                      <span class="txt">Size available for this item</span>
+                      <div class="chk_size">
+                          <a href="#none" class="num">6</a>
+                          <a href="#none" class="num">8</a>
+                          <a href="#none" class="num">10</a>
+                          <a href="#none" class="num">12</a>
+                          <a href="#none" class="num">14</a>
+                      </div>
+                  </div>                  
+               </section>
+                <div class="btn_wrap">
+                    <a href="#none" class="btn type3">Add to Cart</a>
+                </div>                  
+              <!-- (e) shopping_info -->              
+        </div>
+        <!-- (e) container -->
+        <!-- (s) footer -->
+        <footer class="footer">
+            <div class="share_txt">
+                SHARE ON
+            </div>
+            <ul class="share">
+                <li class="menu"><a href="#none" class="twi"></a><span class="ico_dodge">205</span></li>
+                <li class="menu"><a href="#none" class="fac"></a><span class="ico_dodge">332</span></li>
+                <li class="menu"><a href="#none" class="pin"></a><span class="ico_dodge">112</span></li>
+            </ul>
+        </footer>
+        <!-- (e) footer -->
+     </div>
+     <!--  (e) wrap -->
+</body>
+<script type="text/javascript">
+     $('.slide_bx').slick({
+        dots: true,
+        arrows: false,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 1,
+        adaptiveHeight: true
+        });
+</script>
+</html>
+
