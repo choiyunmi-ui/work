@@ -126,8 +126,8 @@
 .cont_wrap .post_cont .post_cmt .date{display:inline-block;margin-top:13px;color:#a3abaf;font-size:14px}
 .cont_wrap .post_cont .post_cmt .dsc{margin-top:11px;color:#475055;font-size:15px;color:#475055}
 .cont_wrap .lifestyle{margin-top:40px}
-.cont_wrap .lifestyle .day_cont .section_tit{position:relative;background:#00b4ff}
-.cont_wrap .lifestyle .day_cont .section_tit:before{border-top-color:#00b4ff}
+.cont_wrap .lifestyle .section_tit{position:relative;background:#00b4ff}
+.cont_wrap .lifestyle .section_tit:before{border-top-color:#00b4ff}
 
 
 .cont_wrap .post_cont .carousel{margin-top:40px}

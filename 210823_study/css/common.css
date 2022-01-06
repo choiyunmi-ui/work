@@ -158,7 +158,7 @@ input {
 
 /*slider*/
 .prmt_slider .slick-dots:after{display:block;clear:both;content:'';}
-.prmt_slider .slick-dots{position:absolute;right:35px;top:13px}
+.prmt_slider .slick-dots{position:absolute;right:35px;top:-20px}
 .prmt_slider .slick-dots li{float:left;margin-right:10px;width:11px;height:12px;background:url(../img/main/pagenation_on.png) no-repeat}
 .prmt_slider .slick-dots li{float:left;margin-right:10px;background:url(../img/main/pagenation_off.png) no-repeat}
 .prmt_slider .slick-dots li.slick-active{background:url(../img/main/pagenation_on.png) no-repeat}
