@@ -1,0 +1,26 @@
+@charset 'utf-8';
+
+
+/* button */
+.btn{display:inline-block;}
+.btn_default{width:260px;height:60px;line-height:60px;text-align:center;background:#86be42;color:#fff}
+.btn_news{width:200px;height:50px;line-height:50px;vertical-align: middle;}
+
+.icon{display:inline-block;background-repeat:no-repeat;background-size:100% 100%;vertical-align:middle}
+.ico_person{width:25px;height:25px;background-image:url(../img/ico_person.jpg)}
+.ico_mail{width:22px;height:28px;background-image:url(../img/ico_mail.jpg)}
+
+
+@media all and (max-width:360px){
+
+.btn{display:inline-block;}
+.btn_default{width:260px;height:60px;line-height:60px;text-align:center;background:#86be42;color:#fff}
+.btn_news{width:100px;height:25px;line-height:25px;font-size:10px;vertical-align: middle;}
+
+.visual .link_to{width:110px;height:25px;line-height:25px;font-size:8px}
+.ico_person{width:13px;height:14px;background-image:url(../img/ico_person.jpg)}
+.ico_mail{width:11px;height:14px;background-image:url(../img/ico_mail.jpg)}
+
+.ico_menu{width:10px;height:6px;background-image:url(../img/menu_img.jpg)}
+.ico_search{width:12px;height:12px;background-image:url(../img/ico_more.jpg)}
+}

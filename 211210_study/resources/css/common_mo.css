@@ -1,0 +1,55 @@
+@charset 'utf-8';
+
+
+@media all and (max-width:360px){
+ 
+
+  /* common */
+#wrap{padding:0}
+.mo_only{display:block}               
+.pc_only{display:none}               
+.inner{width:auto;padding:0;text-align:center}
+.img{width:100%;height:auto}
+.header{position:relative;height:115px}
+.header .btn_menu{position:absolute;top:82px;left:10px;}
+.header .menu_search{position:absolute;top:82px;right:10px;}
+.header .header_top{border-bottom:1px solid #dcdcdc}
+.header .logo{height:75px;padding:0;box-sizing:border-box;text-align:center}
+.header .logo .link_to{display:inline-block;padding:15px 0}
+.header .logo .logo_img{display:inline-block;width:140px;vertical-align:middle;}
+.header .gnb_list{width:100%;height:42px;padding:0 10%;margin:0 auto;text-align: center;font-size:0;box-sizing:border-box}
+.header .gnb_list li{display:inline-flex;justify-content:center;align-items:center;width:20%;padding:11px 0;margin:0;font-size:8px;box-sizing: border-box;text-align: center;}
+.container .main_content .visual{height:290px;min-width:auto;background:url(../img/visiual_img.jpg) 50% 0 no-repeat;background-size:auto 100%;}
+.container .main_content .visual .inner{position:static;width:auto;margin:0}
+.container .main_content .product_info{display:block;height:auto;background:url(../img/img_cont_desc.jpg) no-repeat}
+.container .main_content .product_info .product_tit{display:block;width:73px;height:42px;margin:10px auto}
+.container .main_content .product_list{margin:0}
+.container .main_content .product_list li{display:block;width:100%;margin:0}  
+.container .main_content .product_list .info{display:none}
+
+.container .main_content .visual_info {padding:195px 0 0}
+.container .main_content .visual_info .visual_txt{font-size:11px;color:#fff}
+.container .main_content .visual_info .btn_more{padding-top:15px}
+
+.container .main_content .news_letter{height:auto;padding-bottom:30px;background-size:cover}
+.container .main_content .news_letter .inner{width:86%;padding:27px 0 0}
+.container .main_content .news_letter .news_desc{height:auto;padding-bottom:20px}
+.container .main_content .news_letter .news_desc .news_tit{background:#1f1f1f;height: 13px;line-height: 0;padding: 13px 0 8px 0;}
+.container .main_content .news_letter .news_desc .news_tit .img{width:50px}
+.container .main_content .news_letter .news_desc .member_info{padding:16px 23px 0}
+.container .main_content .news_letter .news_desc .member_info .item{display:block}
+.container .main_content .news_letter .news_desc .member_info .item .inp_text{font-size:7px;color:#422e1b;margin-top:-13px}
+.container .main_content .news_letter .news_desc .member_info .item .member_name{width:100%}
+.container .main_content .news_letter .news_desc .member_info .item .member_name .icon{margin-top:-7px}
+.container .main_content .news_letter .news_desc .member_info .item .member_mail{width:100%;margin:15px 0 0}
+.container .main_content .news_letter .news_desc .member_info .btn{margin:24px 0 0}
+
+
+
+.container .main_content .footer{padding:12px;background:#e8e8e8}
+.container .main_content .footer .share_txt{position:relative;margin:10px 0;height:20px;color:#323c3f;font-size:12px;}
+.container .main_content .footer .share_txt::before{display:inline-block;position:absolute;top:7px;left:80px;right:0;height:1px;background-color:#dadade;content:'';}
+.visual .link_to{width:110px;}
+
+  /* layout */
+}
