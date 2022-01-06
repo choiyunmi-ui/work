@@ -1,0 +1,25 @@
+@charset 'utf-8';
+
+
+/* button */
+.btn{display:inline-block;}
+.btn_primary{width:150px;height:50px;line-height:50px;text-align:center;font-size:14px;background:#37b8e0;color:#fff}
+.btn_news{width:200px;height:50px;line-height:50px;vertical-align: middle;}
+
+.icon{display:inline-block;background-repeat:no-repeat;background-size:100% 100%;vertical-align:middle}
+.ico_graph{width:53px;height:53px;background-image:url(../img/ico_graph.jpg)}
+.ico_money{width:50px;height:53px;background-image:url(../img/ico_money.jpg)}
+.ico_save{width:47px;height:55px;background-image:url(../img/ico_save.jpg)}
+
+@media all and (max-width:320px){
+ .icon{display:inline-block;background-repeat:no-repeat;background-size:100% 100%;vertical-align:middle}
+.ico_graph{width:26.5px;height:26.5px;background-image:url(../img/ico_graph.jpg)}
+.ico_money{width:25px;height:26.5px;background-image:url(../img/ico_money.jpg)}
+.ico_save{width:23.5px;height:27.5px;background-image:url(../img/ico_save.jpg)}
+.ico_menu{width:17px;height:15px;background-image:url(../img/menu_btn.png)}
+.ico_menu{width:17px;height:15px;background-image:url(../img/menu_btn.png)}
+.ico_search{width:15px;height:15px;background-image:url(../img/ico_search.png)}
+.ico_close{width:17px;height:16px;background-image:url(../img/ico_close.png)}
+
+    .visual .link_to{width:110px;height:25px;line-height:25px;font-size:8px}
+}

@@ -1,0 +1,120 @@
+@charset 'utf-8'
+
+#wrap{padding:0 12px}
+.blind{overflow:hidden;position:absolute;width:1px;height:1px;margin:-1px;padding:0;border:0;line-height:0;white-space:normal;word-wrap:break-word;word-break:break-all;clip:rect(0,0,0,0)}
+.blind:before{display:block;width:0;height:0;font-size:0;content:'\00a0'}
+.mo_only{display:none}               
+.pc_only{display:block}               
+.img{max-width:100%;height:auto}
+.link_go{display:inline-block}
+.inner{width:1180px;margin:0 auto;text-align:center;}
+
+.header{position:relative;z-index:10;width:66.3%;height:143px;line-height:143px;margin:0 auto}
+.header:after{display:block;clear:both;content:''}
+.header .tit_logo{float:left}
+.header .gnb{float:right;font-size:0}
+.header .gnb .gnb_list .menu{display:inline-block;padding:0 35px;margin:0 20px;font-size:16px;font-weight:bold;font-family: Arial, sans-serif;vertical-align:top}
+.header .gnb .gnb_list .menu:first-child{margin-left:0}
+.header .gnb .gnb_list .menu .link_go{color:#fff;}
+
+.main_content .visual{position:absolute;top:0;left:0;width:100%;height:864px}
+.main_content .visual:after{content:'';display:inline-block;clear:both}
+.main_content .visual .visual_txt{float:left;width:50%;height:864px;text-transform:uppercase;background:url(../img/visual_img01.jpg) no-repeat center top;background-size:cover}
+.main_content .visual .visual_txt:after{display:inline-block;clear:both;content:''}
+.main_content .visual .visual_txt .inner{float:right;width:65.6%;padding:40px 0 0 0;text-align:left}
+.main_content .visual .visual_txt .inner .visual_tit{display:inline-block;margin-top:140px;font-size:13px;font-weight:400;color:#fff }
+.main_content .visual .visual_txt .inner .visual_cont{display:block;margin-top:60px;font-size:13px;line-height:0.9;font-size:60px;color:#fff;letter-spacing:-0.05em;}
+.main_content .visual .visual_txt .inner .visual_desc{display:block;margin-top:60px;font-size:13px;font-family: Arial, sans-serif;font-size:20px;color:#fff}
+.main_content .visual .visual_txt .inner .btn{margin-top:90px}
+
+.main_content .visual .visual_info{float:right;width:50%;height:864px;background:url(../img/visual_img02.jpg) no-repeat center top;background-size:cover}
+.main_content .visual .visual_info .gnb{margin-top:20px;font-size:0}
+.main_content .visual .visual_info .gnb .menu{display:inline-block;padding:0 35px;margin:0 20px;font-size:16px;font-weight:bold;font-family: Arial, sans-serif;vertical-align:top}
+.main_content .visual .visual_info .gnb .menu .link_go{display:block;color:#fff}
+.main_content .visual .visual_info .gnb .btn_moSlide{display:none}
+
+.main_content .service{height:540px;padding-top:720px;}
+.main_content .service .service_tit{position:relative;margin-top:70px;padding-top:25px;font-size:33px;font-weight:bold;color:#2b2b2b;font-weight:800}
+.main_content .service .service_tit:before{content:'';position:absolute;top:0;left:50%;margin-left:-50px;width:100px;height:1px;background:#bbb}
+.main_content .service .service_tit .txt{display:block;margin-top:10px;font-size:14px;color:#797979}
+
+.main_content .service .service_list{width:100%;margin-top:40px;font-size:0}
+.main_content .service .service_list .menu{display:inline-block;width:33.33%;text-align:left}
+.main_content .service .service_list .menu .icon_bg{display:inline-block;width:105px;height:105px;line-height:105px;border:1px solid #bbb;text-align:center}
+.main_content .service .service_list .menu .service_desc{padding:30px 0 0 20px;border-left:1px solid #bbb}
+.main_content .service .service_list .menu .service_desc .tit{font-size:15px}
+.main_content .service .service_list .menu .service_desc .txt{display:block;width:250px;margin-top:25px;font-size:12px;font-family:'NanumSquareR';color:#a7a7a7}
+
+.main_content .global_service{height:690px;background:url(../img/visual_bg_img01.jpg) no-repeat center top;background-size:cover}
+.main_content .global_service .global_desc{padding:100px 0 20px 567px;font-size:0;text-align:left}
+.main_content .global_service .global_desc .number{display:inline-block;width:82px;height:81px;line-height:81px;border:1px solid #848585;font-size:60px;color:#5c78b2;vertical-align:middle;text-align:center}
+.main_content .global_service .global_desc .global_info{display:inline-block;padding-left:20px;font-size:18px;color:#fff;vertical-align:top}
+.main_content .global_service .global_desc .global_info .global_tit{font-size:18px;vertical-align:top;margin-bottom:35px;font-size:40px;}
+.main_content .global_service .global_desc .global_info .global_tit .txt{display:block;margin-bottom:20px;font-size:20px;text-transform:uppercase;color:#e2e2e2}
+.main_content .global_service .global_desc .global_info .link_go{display:block;margin-top:10px}
+
+.main_content .global_service.happiness_fund{height:690px;background:url(../img/visual_bg_img02.jpg) no-repeat center top;background-size:cover;}
+.main_content .global_service.happiness_fund .global_desc .global_info .global_tit .txt{color:#535252}
+.main_content .global_service.happiness_fund .global_desc{padding:100px 0 20px 120px;color:#222}
+.main_content .global_service.happiness_fund .global_desc .global_info{color:#222}
+
+@media all and (max-width:320px) {
+.mo_only{display:block}               
+.pc_only{display:none}               
+.inner{width:100%;margin:0 auto;text-align:center}
+.header{position:relative;width:100%;height:auto;line-height:1;padding:20px 20px 0 20px;box-sizing:border-box}
+.header:after{display:block;clear:both;content:''}
+.header .tit_logo{width:101px;height:22px;}
+.header .tit_logo .link_go .img{width:auto;height:100%} 
+.header .btn_moSlide{float:right;display:inline-block;margin-right:25px;padding:5px}
+.header .btn_search{position:absolute;top:20px;right:20px;padding:5px}
+.header .gnb_slide{width:150px;height:100%;position:fixed;top:0;right:-152px;z-index:10;border:1px solid #c9c9c9;background-color:white;text-align:center;transition: All 0.2s ease; -webkit-transition: All 0.2s ease; -moz-transition: All 0.2s ease; -o-transition: All 0.2s ease}
+.header .gnb_slide.open{right:0}
+.header .gnb_slide .gnb_list{padding:60px 20px 0;text-align:left}
+.header .gnb_slide .gnb_list .menu{padding:20px 0 0}
+.header .gnb_slide .btn_search{position:absolute;z-index:20;}
+
+.main_content .visual{display:flex;flex-wrap: wrap-reverse;width:100%;height:474px}
+.main_content .visual:after{content:'';display:inline-block;clear:both}
+.main_content .visual .visual_txt{float:right;width:100%;height:170px;text-transform:uppercase;background:url(../img/mo_visual_img01.jpg) no-repeat center top;background-size:cover}
+.main_content .visual .visual_txt:after{display:inline-block;clear:both;content:''}
+.main_content .visual .visual_txt .inner{float:right;width:100%;padding:20px 20px 0;box-sizing:box-sizing:border-box;text-align:left}
+.main_content .visual .visual_txt .inner .visual_tit{margin-top:0;font-size:7px;font-weight:400;color:#fff }
+.main_content .visual .visual_txt .inner .visual_cont{display:block;margin-top:15px;font-size:30px;line-height:1;letter-spacing:-0.05em;color:#fff}
+.main_content .visual .visual_txt .inner .visual_txt{display:block;margin-top:10px;font-size:9px;font-family: Arial, sans-serif;color:#fff}
+.main_content .visual .visual_txt .inner .visual_desc{margin-top:10px;font-size:9px;}
+.main_content .visual .visual_txt .inner .btn{margin-top:90px}
+
+.main_content .visual .visual_info{float:left;width:100%;height:310px;background:url(../img/mo_visual_img02.jpg) no-repeat center top;background-size:cover}
+.main_content .visual .visual_info .gnb{margin-top:20px;font-size:0}
+.main_content .visual .visual_info .gnb .menu{display:inline-block;padding:0 35px;margin:0 20px;font-size:16px;font-weight:bold;font-family: Arial, sans-serif;vertical-align:top}
+.main_content .visual .visual_info .gnb .menu .link_go{display:block;color:#fff}
+
+.main_content .service{height:auto;width:100%;padding-top:423px}
+.main_content .service .service_tit{position:relative;margin-top:33px;padding-top:12px;font-size:16px;font-weight:800;color:#2b2b2b}
+.main_content .service .service_tit:before{content:'';position:absolute;top:0;left:50%;margin-left:-25px;width:50px;height:1px;background:#bbb}
+.main_content .service .service_tit .txt{display:block;margin-top:7px;font-size:7px;font-weight:700}
+
+.main_content .service .service_list{margin-top:40px;font-size:0}
+.main_content .service .service_list .menu{display:inline-block;width:100%;text-align:center}
+.main_content .service .service_list .menu .menu_hover{display:inline-flex;margin-bottom:40px;justify-content:center;align-items:top}
+.main_content .service .service_list .menu .icon_bg{display:inline-block;width:58px;height:57px;line-height:57px;border:1px solid #bbb;text-align:center}
+.main_content .service .service_list .menu .service_desc{padding:0 0 0 30px;border-left:0;text-align:left}
+.main_content .service .service_list .menu .service_desc .tit{font-size:11px;font-weight:700}
+.main_content .service .service_list .menu .service_desc .txt{display:block;width:140px;margin-top:10px;font-size:7px;font-weight:400;color:#a7a7a7}
+
+.main_content .global_service{height:243px;background:url(../img/mo_visual_bg_img01.jpg) no-repeat center top;background-size:cover}
+.main_content .global_service .global_desc{padding:40px 0 0 45px;font-size:0;text-align:left}
+.main_content .global_service .global_desc .number{display:inline-block;width:42px;height:42px;line-height:45px;border:1px solid #848585;font-size:30px;color:#5c78b2;font-weight:800;vertical-align:middle;text-align:center}
+.main_content .global_service .global_desc .global_info{display:block;padding-left:0;font-size:10px;color:#fff;vertical-align:top}
+.main_content .global_service .global_desc .global_info .global_tit{margin-bottom:18px;font-size:20px;vertical-align:top;font-weight:700}
+.main_content .global_service .global_desc .global_info .global_tit .txt{display:block;margin:10px 0;font-size:10px;font-weight:700text-transform:uppercase;color:#e2e2e2}
+.main_content .global_service .global_desc .global_info .link_go{display:inline-block;margin-top:10px}
+.main_content .global_service .global_desc .global_info .link_go .img{width:75px;height:10px}
+
+.main_content .global_service.happiness_fund{height:241px;background:url(../img/mo_visual_bg_img02.jpg) no-repeat center top;background-size:cover;font-family:'NanumSquareEB', sans-serif;}
+.main_content .global_service.happiness_fund .global_desc{padding:45px 0 0 43px;color:#222}
+.main_content .global_service.happiness_fund .global_desc .number{line-height:38px}
+.main_content .global_service.happiness_fund .global_desc .global_info{color:#222}
+.main_content .global_service.happiness_fund .global_desc .global_info .global_tit .txt{color:#535252}    
+}

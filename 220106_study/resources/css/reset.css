@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* reset */
+html{font-size:62.5%}
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,button{margin:0;padding:0;box-sizing:border-box;}
+fieldset,img{border:0 none}
+dl,ul,ol,menu,li{list-style:none;box-sizing:border-box;}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
+input,select,textarea,button{font-size:100%;border-radius:0;vertical-align:middle}
+button{border:0 none;background-color:transparent;cursor:pointer}
+table{width:100%;border-collapse:collapse;border-spacing:0}
+body{background:#fff;-webkit-text-size-adjust:none} 
+input:checked[type='checkbox']{background-color:#666;-webkit-appearance:checkbox}
+input[type='text'],input[type='password'],input[type='submit'],input[type='search'],input[type='tel'],input[type='email'],input[type='button'],input[type='reset'],input[type='number'],input[type='url']{-webkit-appearance:none;border-radius:0}
+input[type='search']::-webkit-search-cancel-button,input[type='search']::-webkit-search-decoration{-webkit-appearance:none}
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button{-webkit-appearance:none;margin:0}
+input::-ms-clear{display:none}
+/* body,th,td,input,select,textarea,button{font-size:14px;line-height:1.2;font-family:'NanumSquare',-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo',Arial,'Malgun Gothic','Dotum',sans-serif;color:#000} */
+body,th,td,input,select,textarea,button{font-size:14px;line-height:1.2;font-family: 'NanumSquare', sans-serif; color:#000}
+.blind{overflow:hidden;position:absolute;width:1px;height:1px;margin:-1px;padding:0;border:0;line-height:0;white-space:normal;word-wrap:break-word;word-break:break-all;clip:rect(0,0,0,0)}
+.blind:before{display:block;width:0;height:0;font-size:0;content:'\00a0'}
+a{color:#000;text-decoration:none}
+a:active,a:hover,a:focus{text-decoration:none}
+address,caption,cite,code,dfn,em,var{font-style:normal;font-weight:normal}
+
