@@ -19,3 +19,5 @@
 - responsive url <br>
   https://choiyunmi-ui.github.io/work/211210_study/main.html<br>
   https://choiyunmi-ui.github.io/work/220106_study/main.html<br>
+  https://choiyunmi-ui.github.io/work/portfolio_ver01/index.html<br>
+  https://choiyunmi-ui.github.io/work/portfolio_ver02/index.html<br>
